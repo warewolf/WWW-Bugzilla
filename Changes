@@ -50,3 +50,6 @@ Revision history for Perl extension WWW::Bugzilla.
 1.3 - 2007/10/08
     - public bugzilla servers now use SSL for auth, so make Crypt::SSLeay a requirement
     - update the required version of Mechanize.  Not that it doesn't work with the previous versions, but dev testing is only done with the latest.
+
+1.5.1 - 2014/05/14
+    - add PMLIBDIRS so the .pm files get installed

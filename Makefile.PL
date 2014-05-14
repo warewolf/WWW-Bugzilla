@@ -6,6 +6,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'         => 'WWW::Bugzilla',
     'VERSION_FROM' => 'WWW/Bugzilla.pm',     # finds $VERSION
+    'PMLIBDIRS' => [ qw(WWW) ],
     'PREREQ_PM'    => {
         Carp               => 0,
         WWW::Mechanize     => 1.30, # this is what I'm testing with... it has been known to work with 1.22, but its what I have...
