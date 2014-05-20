@@ -1,5 +1,5 @@
-WWW/Bugzilla.pm
-WWW/Bugzilla/Search.pm
+lib/WWW/Bugzilla.pm
+lib/WWW/Bugzilla/Search.pm
 Changes
 CREDIT
 Makefile.PL
